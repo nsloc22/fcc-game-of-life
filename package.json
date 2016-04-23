@@ -1,0 +1,25 @@
+{
+  "name": "gol",
+  "version": "0.0.0",
+  "description": "freeCodeCamp Game of Life",
+  "author": "nsloc22",
+  "contributors": [],
+  "main": "app.js",
+  "license" : "GPL-3.0",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "node-sass-middleware": "0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsloc22/fcc-game-of-life.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nsloc22/fcc-game-of-life/issues"
+  }
+}
