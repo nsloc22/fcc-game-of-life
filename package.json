@@ -6,6 +6,9 @@
   "contributors": [],
   "main": "app.js",
   "license" : "GPL-3.0",
+  "engines": {
+    "node": "4.2.4"
+  },
   "dependencies": {
     "body-parser": "~1.13.2",
     "debug": "~2.2.0",

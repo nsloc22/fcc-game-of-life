@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public/stylesheets/sass'),
   dest: path.join(__dirname, 'public/stylesheets'),
-  debug: true,
+  debug: false,
   indentedSyntax: true,
   outputStyle: 'compressed',
   prefix: '/stylesheets'
