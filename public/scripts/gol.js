@@ -37,6 +37,7 @@ var Board = React.createClass({
       this.setState({cells: this.randCells(), cleared: false});
       this.setupIntervals();
       this.setState({running: true});
+      return;
     }
     if(!this.state.running){
       this.setupIntervals();
